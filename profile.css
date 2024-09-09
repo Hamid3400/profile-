@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #f4f4f4;
+    align-items: center;
+    justify-content: center;
+}
+.profile_Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color: #ffff;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    padding: 25px;
+
+}
+.image{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #4070f4;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+   border-radius: 50%;
+   border: 2px solid #fff;
+}
+.profile_Card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+.text-data .name{
+    font-size: 22px;
+    font-weight: 500;
+}
+.text-data .job{
+    font-size: 15px;
+    font-weight: 400;
+}
+.profile_Card .media-btn{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.media-btn .link{
+    font-size: 18px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 34px;
+    border-radius: 50%;
+    width: 34px;
+    background-color: #4070f4;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.button .button{
+    background-color: #4070f4;
+    padding: 8px 24px;
+    margin: 0px 10px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 2s ease;
+}
+.button .button:hover{
+    background-color: #0e4bf1;
+}
+.profile_Card .analysic{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.analysic .data{
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    color: #333;
+    border-right: 2px solid #fff;
+}
+.data i{
+    font-size: 18px;
+    /* margin-right: 1px; */
+}
+.data:last-child{
+    border-right: none;
+}
